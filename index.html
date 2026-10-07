@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entry Form </title>
+
+    <style>
+        body{
+            font-family: arial;
+            background-color: #f2f2f2;
+
+        }
+
+        .form-box{
+            width: 500px;
+            margin:  50px,auto;
+            padding: 25px;
+            background-color:blue;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+            
+        }
+        h2{
+            text-align: center;
+
+        }
+        lable{
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input, select{
+           width: 100%;
+           margin-top: 5px;
+           padding: 10px;
+           box-sizing: border-box;
+
+        }
+        input[type="radio"]{
+            width: auto;
+        }
+
+        input[type="submit"]
+        input[type="reset"]{
+             width: 48%;
+            margin-top: 20px;
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        input[type="reset"]{
+            background-color: red;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <form>
+   
+    <div class="form-box">
+         <h2>Entry Form </h2>
+         <label>Student Name</label>
+         <input text="type" name="name" placeholder="Enter your name"> 
+         <label>Roll Number</label>
+         <input text="type" name="roll" placeholder="Enter your Roll no">
+
+         <label>Email</label>
+         <input text="type" name="email" placeholder="Enter your email">
+         <label>phone</label>
+         <input text="type" name="phone number" placeholder="enter your number">
+         <lable>Date of birth</lable>
+         <input text="type" name="dob";>
+
+         <label>Gender</label>
+         <input text="radio" name="gender" value="male">male
+         <input text="radio" name="gender" value="Female">Female
+
+         <label>Branch</label>
+         <select name="Branch">
+            <option value="">Select Branch</option>
+
+             <option>CSE</option>
+            <option>ECE</option>
+            <option>ME</option>
+            <option>CE</option>
+            <option>EE</option>
+        
+         </select>
+
+            <label>Address</label>
+            <input type="type" name="Address" placeholder="enter your Address">
+
+        
+        
+              <input type="submit" value="Submit">
+               <input type="reset" value="Reset">
+ 
+         </form>  
+         </div>
+    
+    
+</body>
+</html>
